@@ -12,7 +12,7 @@ const TodoForm = ({ addTodo }) => {
         setCategory("")
     }
 
-    
+
     
 
   return (
@@ -28,7 +28,7 @@ const TodoForm = ({ addTodo }) => {
                 <option value="Estudos">Estudos</option>
 
             </select>
-            <button type="submit">Criar Tarefa</button>
+            <button type="submit" className="criar-tarefa">Criar Tarefa</button>
         </form>
     </div>
 );
