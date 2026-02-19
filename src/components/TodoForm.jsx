@@ -12,6 +12,9 @@ const TodoForm = ({ addTodo }) => {
         setCategory("")
     }
 
+    
+    
+
   return (
   <div className="todo-form">
         <h2>Criar Tarefas</h2>
